@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1453C91027BA1D7A004BCEFC /* iMileDriverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1453C90F27BA1D7A004BCEFC /* iMileDriverApp.swift */; };
+		1453C91227BA1D7A004BCEFC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1453C91127BA1D7A004BCEFC /* ContentView.swift */; };
+		1453C91427BA1D7B004BCEFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1453C91327BA1D7B004BCEFC /* Assets.xcassets */; };
+		1453C91727BA1D7B004BCEFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1453C91627BA1D7B004BCEFC /* Preview Assets.xcassets */; };
+		1453C91927BA1D7B004BCEFC /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1453C91827BA1D7B004BCEFC /* Persistence.swift */; };
+		1453C91C27BA1D7B004BCEFC /* iMileDriver.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1453C91A27BA1D7B004BCEFC /* iMileDriver.xcdatamodeld */; };
+		1453C92627BA1D7B004BCEFC /* iMileDriverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1453C92527BA1D7B004BCEFC /* iMileDriverTests.swift */; };
+		1453C93027BA1D7B004BCEFC /* iMileDriverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1453C92F27BA1D7B004BCEFC /* iMileDriverUITests.swift */; };
+		1453C93227BA1D7B004BCEFC /* iMileDriverUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1453C93127BA1D7B004BCEFC /* iMileDriverUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1453C92227BA1D7B004BCEFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1453C90427BA1D7A004BCEFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1453C90B27BA1D7A004BCEFC;
+			remoteInfo = iMileDriver;
+		};
+		1453C92C27BA1D7B004BCEFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1453C90427BA1D7A004BCEFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1453C90B27BA1D7A004BCEFC;
+			remoteInfo = iMileDriver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1453C90C27BA1D7A004BCEFC /* iMileDriver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMileDriver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1453C90F27BA1D7A004BCEFC /* iMileDriverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMileDriverApp.swift; sourceTree = "<group>"; };
+		1453C91127BA1D7A004BCEFC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1453C91327BA1D7B004BCEFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1453C91627BA1D7B004BCEFC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1453C91827BA1D7B004BCEFC /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		1453C91B27BA1D7B004BCEFC /* iMileDriver.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iMileDriver.xcdatamodel; sourceTree = "<group>"; };
+		1453C92127BA1D7B004BCEFC /* iMileDriverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iMileDriverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1453C92527BA1D7B004BCEFC /* iMileDriverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMileDriverTests.swift; sourceTree = "<group>"; };
+		1453C92B27BA1D7B004BCEFC /* iMileDriverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iMileDriverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1453C92F27BA1D7B004BCEFC /* iMileDriverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMileDriverUITests.swift; sourceTree = "<group>"; };
+		1453C93127BA1D7B004BCEFC /* iMileDriverUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMileDriverUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1453C90927BA1D7A004BCEFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1453C91E27BA1D7B004BCEFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1453C92827BA1D7B004BCEFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1453C90327BA1D7A004BCEFC = {
+			isa = PBXGroup;
+			children = (
+				1453C90E27BA1D7A004BCEFC /* iMileDriver */,
+				1453C92427BA1D7B004BCEFC /* iMileDriverTests */,
+				1453C92E27BA1D7B004BCEFC /* iMileDriverUITests */,
+				1453C90D27BA1D7A004BCEFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1453C90D27BA1D7A004BCEFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1453C90C27BA1D7A004BCEFC /* iMileDriver.app */,
+				1453C92127BA1D7B004BCEFC /* iMileDriverTests.xctest */,
+				1453C92B27BA1D7B004BCEFC /* iMileDriverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1453C90E27BA1D7A004BCEFC /* iMileDriver */ = {
+			isa = PBXGroup;
+			children = (
+				1453C90F27BA1D7A004BCEFC /* iMileDriverApp.swift */,
+				1453C91127BA1D7A004BCEFC /* ContentView.swift */,
+				1453C91327BA1D7B004BCEFC /* Assets.xcassets */,
+				1453C91827BA1D7B004BCEFC /* Persistence.swift */,
+				1453C91A27BA1D7B004BCEFC /* iMileDriver.xcdatamodeld */,
+				1453C91527BA1D7B004BCEFC /* Preview Content */,
+			);
+			path = iMileDriver;
+			sourceTree = "<group>";
+		};
+		1453C91527BA1D7B004BCEFC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1453C91627BA1D7B004BCEFC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1453C92427BA1D7B004BCEFC /* iMileDriverTests */ = {
+			isa = PBXGroup;
+			children = (
+				1453C92527BA1D7B004BCEFC /* iMileDriverTests.swift */,
+			);
+			path = iMileDriverTests;
+			sourceTree = "<group>";
+		};
+		1453C92E27BA1D7B004BCEFC /* iMileDriverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1453C92F27BA1D7B004BCEFC /* iMileDriverUITests.swift */,
+				1453C93127BA1D7B004BCEFC /* iMileDriverUITestsLaunchTests.swift */,
+			);
+			path = iMileDriverUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1453C90B27BA1D7A004BCEFC /* iMileDriver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1453C93527BA1D7B004BCEFC /* Build configuration list for PBXNativeTarget "iMileDriver" */;
+			buildPhases = (
+				1453C90827BA1D7A004BCEFC /* Sources */,
+				1453C90927BA1D7A004BCEFC /* Frameworks */,
+				1453C90A27BA1D7A004BCEFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iMileDriver;
+			productName = iMileDriver;
+			productReference = 1453C90C27BA1D7A004BCEFC /* iMileDriver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1453C92027BA1D7B004BCEFC /* iMileDriverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1453C93827BA1D7B004BCEFC /* Build configuration list for PBXNativeTarget "iMileDriverTests" */;
+			buildPhases = (
+				1453C91D27BA1D7B004BCEFC /* Sources */,
+				1453C91E27BA1D7B004BCEFC /* Frameworks */,
+				1453C91F27BA1D7B004BCEFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1453C92327BA1D7B004BCEFC /* PBXTargetDependency */,
+			);
+			name = iMileDriverTests;
+			productName = iMileDriverTests;
+			productReference = 1453C92127BA1D7B004BCEFC /* iMileDriverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1453C92A27BA1D7B004BCEFC /* iMileDriverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1453C93B27BA1D7B004BCEFC /* Build configuration list for PBXNativeTarget "iMileDriverUITests" */;
+			buildPhases = (
+				1453C92727BA1D7B004BCEFC /* Sources */,
+				1453C92827BA1D7B004BCEFC /* Frameworks */,
+				1453C92927BA1D7B004BCEFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1453C92D27BA1D7B004BCEFC /* PBXTargetDependency */,
+			);
+			name = iMileDriverUITests;
+			productName = iMileDriverUITests;
+			productReference = 1453C92B27BA1D7B004BCEFC /* iMileDriverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1453C90427BA1D7A004BCEFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					1453C90B27BA1D7A004BCEFC = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					1453C92027BA1D7B004BCEFC = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 1453C90B27BA1D7A004BCEFC;
+					};
+					1453C92A27BA1D7B004BCEFC = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 1453C90B27BA1D7A004BCEFC;
+					};
+				};
+			};
+			buildConfigurationList = 1453C90727BA1D7A004BCEFC /* Build configuration list for PBXProject "iMileDriver" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1453C90327BA1D7A004BCEFC;
+			productRefGroup = 1453C90D27BA1D7A004BCEFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1453C90B27BA1D7A004BCEFC /* iMileDriver */,
+				1453C92027BA1D7B004BCEFC /* iMileDriverTests */,
+				1453C92A27BA1D7B004BCEFC /* iMileDriverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1453C90A27BA1D7A004BCEFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1453C91727BA1D7B004BCEFC /* Preview Assets.xcassets in Resources */,
+				1453C91427BA1D7B004BCEFC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1453C91F27BA1D7B004BCEFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1453C92927BA1D7B004BCEFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1453C90827BA1D7A004BCEFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1453C91C27BA1D7B004BCEFC /* iMileDriver.xcdatamodeld in Sources */,
+				1453C91927BA1D7B004BCEFC /* Persistence.swift in Sources */,
+				1453C91227BA1D7A004BCEFC /* ContentView.swift in Sources */,
+				1453C91027BA1D7A004BCEFC /* iMileDriverApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1453C91D27BA1D7B004BCEFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1453C92627BA1D7B004BCEFC /* iMileDriverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1453C92727BA1D7B004BCEFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1453C93027BA1D7B004BCEFC /* iMileDriverUITests.swift in Sources */,
+				1453C93227BA1D7B004BCEFC /* iMileDriverUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1453C92327BA1D7B004BCEFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1453C90B27BA1D7A004BCEFC /* iMileDriver */;
+			targetProxy = 1453C92227BA1D7B004BCEFC /* PBXContainerItemProxy */;
+		};
+		1453C92D27BA1D7B004BCEFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1453C90B27BA1D7A004BCEFC /* iMileDriver */;
+			targetProxy = 1453C92C27BA1D7B004BCEFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1453C93327BA1D7B004BCEFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1453C93427BA1D7B004BCEFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1453C93627BA1D7B004BCEFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iMileDriver/Preview Content\"";
+				DEVELOPMENT_TEAM = KDULM2WB9Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fun.ericyang.iMileDriver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1453C93727BA1D7B004BCEFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iMileDriver/Preview Content\"";
+				DEVELOPMENT_TEAM = KDULM2WB9Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fun.ericyang.iMileDriver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1453C93927BA1D7B004BCEFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KDULM2WB9Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fun.ericyang.iMileDriverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iMileDriver.app/iMileDriver";
+			};
+			name = Debug;
+		};
+		1453C93A27BA1D7B004BCEFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KDULM2WB9Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fun.ericyang.iMileDriverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iMileDriver.app/iMileDriver";
+			};
+			name = Release;
+		};
+		1453C93C27BA1D7B004BCEFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KDULM2WB9Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fun.ericyang.iMileDriverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iMileDriver;
+			};
+			name = Debug;
+		};
+		1453C93D27BA1D7B004BCEFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KDULM2WB9Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fun.ericyang.iMileDriverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iMileDriver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1453C90727BA1D7A004BCEFC /* Build configuration list for PBXProject "iMileDriver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1453C93327BA1D7B004BCEFC /* Debug */,
+				1453C93427BA1D7B004BCEFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1453C93527BA1D7B004BCEFC /* Build configuration list for PBXNativeTarget "iMileDriver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1453C93627BA1D7B004BCEFC /* Debug */,
+				1453C93727BA1D7B004BCEFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1453C93827BA1D7B004BCEFC /* Build configuration list for PBXNativeTarget "iMileDriverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1453C93927BA1D7B004BCEFC /* Debug */,
+				1453C93A27BA1D7B004BCEFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1453C93B27BA1D7B004BCEFC /* Build configuration list for PBXNativeTarget "iMileDriverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1453C93C27BA1D7B004BCEFC /* Debug */,
+				1453C93D27BA1D7B004BCEFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1453C91A27BA1D7B004BCEFC /* iMileDriver.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1453C91B27BA1D7B004BCEFC /* iMileDriver.xcdatamodel */,
+			);
+			currentVersion = 1453C91B27BA1D7B004BCEFC /* iMileDriver.xcdatamodel */;
+			path = iMileDriver.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1453C90427BA1D7A004BCEFC /* Project object */;
+}
