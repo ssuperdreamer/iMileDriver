@@ -2,12 +2,12 @@
 //  iMileDriverUITestsLaunchTests.swift
 //  iMileDriverUITests
 //
-//  Created by Takeshi on 2/14/22.
+//  Created by Takeshi on 2/22/23.
 //
 
 import XCTest
 
-class iMileDriverUITestsLaunchTests: XCTestCase {
+final class iMileDriverUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
